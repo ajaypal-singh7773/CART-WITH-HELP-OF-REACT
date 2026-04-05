@@ -1,0 +1,46 @@
+.p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.parent {
+  background-color: rgb(224, 215, 215);
+  max-width: 400px;
+  overflow: hidden;
+  padding: 10px 3px;
+  border-radius: 15px;
+}
+
+.photo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 75px;
+  gap: 8px;
+}
+
+.imge {
+  width: 100%;
+  height: 180px; /* or auto if you want original ratio */
+  /* better than fill for profile images */
+  display: block;
+  border-radius: 100%;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+.about {
+  padding: 10px 15px;
+}
+.pro {
+  display: flex;
+  justify-content: center;
+}
